@@ -27,33 +27,9 @@ run = True
 
 while run:
 
-  pygame.time.delay(10)
   window.fill(bgColor)
   pygame.display.update()
 
-  food_status = True
-  Bfood_status = True
-
-  keys = pygame.key.get_pressed()
-  #print(keys[pygame.K_UP])
-  if keys[pygame.K_UP]:
-    print("Up Key Pressed")
-  if keys[pygame.K_DOWN]:
-    print("Down Key Pressed")
-  if keys[pygame.K_LEFT]:
-    print("Left Key Pressed")
-  if keys[pygame.K_RIGHT]:
-    print("Right Key Pressed")
-
-  pygame.event.pump()
-  
-  '''
-  A - True
-  B - False
-  C - False
-  Tab - false
-  
-'''  
 
 
 
@@ -76,4 +52,3 @@ Y ellow
 K Black
 
 '''
-
